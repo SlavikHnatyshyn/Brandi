@@ -1,0 +1,155 @@
+.main-footer-wrap{
+    background: #1ea78d;
+
+
+      &:before{
+          content: '';
+          height: 5px;
+          width: 100%;
+          background:  #062033;
+          position: absolute;
+      }
+
+}
+
+
+.main__footer{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+}
+
+.footer__descr-text{
+    color: #fff;
+    width: 256px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__logo{
+    padding-bottom: 34px;
+    padding-top: 97px;
+}
+
+.submit__email{
+    width: 269px;
+    height: 43px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.subscribe__form-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 46px;
+    padding-top: 76px;
+    opacity: .8;
+}
+
+
+.form__descr{
+   
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 239px;
+}
+
+.btn__submit{
+   background: transparent;
+   border: none;
+   
+  margin: -46px;
+ 
+  padding: 0;
+  padding-bottom: 10px;
+ cursor: pointer;
+
+}
+
+.btn__submit-icon{
+    position: absolute;
+    margin: -10px;
+    cursor: pointer;
+    padding-right: 32px;
+}
+
+
+
+
+
+.explore__items{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.explore__item{
+    list-style: none;
+   margin: 0;
+   padding: 0;
+
+   &:nth-child(3){
+       padding-right: 39px;
+   }
+}
+
+.explore__link{
+    
+    
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.created{
+    margin-left: 84px;
+
+    &:before{
+        content: '';
+        width: 1px;
+        height: 43px;
+        background:  #062033;
+        position: absolute;
+       opacity: .3;
+       right: 314px;
+    }
+}
+
+.footer__heart{
+    padding: 0 5px;
+}
+
+.created__descr{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+   color: #fff;
+  
+
+}
+
+
+.theme{
+    color: #000;
+}
+
+
+.copyright{
+    color: #062033;
+    display: flex;
+    padding-top: 50px;
+
+}
