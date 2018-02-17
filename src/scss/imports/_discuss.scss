@@ -6,11 +6,19 @@
     margin-top: 75px;
     display: flex;
     flex-flow: row nowrap;
+
+
+    @include medium{
+        
+    }
 }
 
 .discuss__address {
     font-style: normal;
     width: 215px;
+
+
+    
 }
 
 .discuss__address-title {
@@ -43,6 +51,12 @@
     width: 50px;
     display: flex;
     justify-content: center;
+
+
+    @include medium{
+        order:3;
+
+    }
 }
 
 .discuss__social-list {
@@ -70,6 +84,11 @@
 .discuss__form-wrap {
     flex: 1 0;
     margin: 0 25px;
+
+   @include medium{
+       order: 1;
+   }
+
 }
 
 .discuss__form-title {

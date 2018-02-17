@@ -15,3 +15,40 @@
     &:-moz-placeholder           { @content; }
     &:-ms-input-placeholder      { @content; }
 }
+
+
+@mixin large{
+    @media screen and (max-width:1200px){
+        @content;
+    }
+}
+
+
+@mixin medium{
+    @media screen  and (max-width:992px){
+    @content;
+}
+
+
+}
+
+
+
+@mixin small{
+    @media screen and (max-width:768px){
+        @content;
+    }
+}
+
+
+@mixin extrasmall{
+    @media screen and (max-width:451px){
+        @content;
+    }
+}
+
+@mixin customWidth($width){
+    @media screen and (max-width:$width){
+        @content;
+    }
+}
