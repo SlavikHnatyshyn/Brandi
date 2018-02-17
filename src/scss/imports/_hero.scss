@@ -11,7 +11,7 @@
     transform: translateX(-50%);
     bottom: 50px;
 
-    @include small{
+    @include small {
         width: 100%;
     }
 }
@@ -30,8 +30,7 @@
         font-weight: 700;
     }
 
-
-    @include small{
+    @include small {
         font-size: 42px;
     }
 }
@@ -46,8 +45,7 @@
     > .green {
         color: #0eeb9e;
     }
-
-    @include small{
+    @include small {
         font-size: 22px;
     }
 }
@@ -77,16 +75,13 @@
     &:after {
         right: -28px;
     }
-
-
-    @include small{
+    @include small {
         font-size: 16px;
     }
 
-   @include extrasmall{
-       padding: 0 8px;
-   }
-
+    @include extraSmall {
+        padding: 0 8px;
+    }
 }
 
 .hero__social {
@@ -115,6 +110,3 @@
         color: rgba(255, 255, 255, 1);
     }
 }
-
-
-

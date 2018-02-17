@@ -30,8 +30,7 @@
     display: flex;
     justify-content: center;
 
-
-    @include medium{
+    @include medium {
         flex-flow: row wrap;
     }
 }
@@ -39,8 +38,7 @@
 .fun__item {
     width: 300px;
 
-
-    @include medium{
+    @include medium {
         margin-top: 20px;
     }
 }

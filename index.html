@@ -44,13 +44,14 @@
                         </li>
                     </ul>
                 </nav> <!-- nav -->
-                
+
                 <button class="menu-btn" id="menu-btn">
                     <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0h24v24H0z" fill="none"/>
                         <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
                     </svg>
                 </button>
+                
 
             </div> <!-- ./inner header -->
 
@@ -112,6 +113,32 @@
             </div>
 
             <ul class="features__list container">
+                <li class="features__item">
+                    <span class="features__icon">
+                        <img src="img/feather.svg" alt="">
+                    </span>
+                    <div class="features__content">
+                        <h3 class="features__title">Branding</h3>
+                        <div class="features__descr-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum ipsam quae adipisci accusamus ea ut harum. Asperiores ad aliquid, minima nostrum nam enim quibusdam labore laudantium aperiam aspernatur nesciunt!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <span class="features__icon">
+                        <img src="img/feather.svg" alt="">
+                    </span>
+                    <div class="features__content">
+                        <h3 class="features__title">Branding</h3>
+                        <div class="features__descr-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum ipsam quae adipisci accusamus ea ut harum. Asperiores ad aliquid, minima nostrum nam enim quibusdam labore laudantium aperiam aspernatur nesciunt!
+                            </p>
+                        </div>
+                    </div>
+                </li>
                 <li class="features__item">
                     <span class="features__icon">
                         <img src="img/feather.svg" alt="">
@@ -327,7 +354,7 @@
                     <figure class="team__img-container">
                         <div 
                             class="team__img"
-                            style="background: url('img/photo1.jpg') no-repeat"
+                            style="background: url('img/photo1.jpg') no-repeat; background-size: cover;"
                         >
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
@@ -362,7 +389,7 @@
                     <figure class="team__img-container">
                         <div 
                             class="team__img"
-                            style="background: url('img/photo2.jpg') no-repeat"
+                            style="background: url('img/photo2.jpg') no-repeat; background-size: cover;"
                         >
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
@@ -397,7 +424,7 @@
                     <figure class="team__img-container">
                         <div 
                             class="team__img"
-                            style="background: url('img/photo3.jpg') no-repeat"
+                            style="background: url('img/photo3.jpg') no-repeat; background-size: cover;"
                         >
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
@@ -432,7 +459,7 @@
                     <figure class="team__img-container">
                         <div 
                             class="team__img"
-                            style="background: url('img/photo1.jpg') no-repeat"
+                            style="background: url('img/photo1.jpg') no-repeat; background-size: cover;"
                         >
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
@@ -618,117 +645,116 @@
     </main>
     <!-- ./maincontent -->
 
-
-    <!-- main-footer-wrap container -->
-    <footer class="main-footer-wrap ">
+   <!-- main-footer-wrap container -->
+   <footer class="main-footer-wrap ">
       
-      <!-- main__footer -->
-        <div class="main__footer container">
+    <!-- main__footer -->
+      <div class="main__footer container">
+     
+          <div class="footer__column-first">
+          <div class="footer__descr">
+           <!-- logo -->
+           <div class="footer__logo logo">
+              <a href="#" class="logo__link">
+                  <img src="img/logo.svg" alt="Logo" class="logo__img">
+              </a>
+          </div> <!-- ./logo -->
+          <p class="footer__descr-text">
+              eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+               nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+      </div>
+  </div><!-- ./footer__column-first -->
+
+
+  <div class="footer__column-second">
+
+     <form class="footer__subscribe">
+     
+      <h6 class="subscribe__form-title">
+          Subscribe 
+      </h6>
+      
+    <input type="email" placeholder="" class="submit__email" required>
+
+    <button type="submit" class="btn__submit">
+      <img src="img/Shape.png" alt="" class="btn__submit-icon">
+   </button>
+
+    <p class="form__descr">
+      eusmod tempor incididunt ut labore et dolore magna aliqua. 
+    </p>
        
-            <div class="footer__column-first">
-            <div class="footer__descr">
-             <!-- logo -->
-             <div class="footer__logo logo">
-                <a href="#" class="logo__link">
-                    <img src="img/logo.svg" alt="Logo" class="logo__img">
-                </a>
-            </div> <!-- ./logo -->
-            <p class="footer__descr-text">
-                eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
-    </div><!-- ./footer__column-first -->
+
+ 
+  </form>
+  
+
+  </div><!-- ./footer__column-second -->
 
 
-    <div class="footer__column-second">
+  <div class="footer__column-third">
 
-       <form class="footer__subscribe">
+      <h6 class="  subscribe__form-title explore">
+          Explore
+      </h6>
+
+    <ul class="explore__items">
        
-        <h6 class="subscribe__form-title">
-            Subscribe 
-        </h6>
+      <div class="explore__items-left">
+       
+        <li class="explore__item"><a href="" class="explore__link">Envato</a> </li>
+        <li class="explore__item"><a href="" class="explore__link">Themecurve</a></li>
+        <li class="explore__item"><a href="" class="explore__link">Kreativeshowcase</a></li>
+        <li class="explore__item"><a href="" class="explore__link">Freebiescurve</a> </li>
         
-      <input type="email" placeholder="" class="submit__email" required>
+      </div>
+        
 
-      <button type="submit" class="btn__submit">
-        <img src="img/Shape.png" alt="" class="btn__submit-icon">
-     </button>
+      <div class="explore__items-left">
 
-      <p class="form__descr">
-        eusmod tempor incididunt ut labore et dolore magna aliqua. 
-      </p>
-         
-
+        <li class="explore__item"><a href="" class="explore__link">Themeforest</a> </li>
+        <li class="explore__item"><a href="" class="explore__link">Microsoft</a></li>
+        <li class="explore__item"><a href="" class="explore__link">Google</a> </li>
+        <li class="explore__item"><a href="" class="explore__link">Yahoo</a></li>
    
-    </form>
-    
-
-    </div><!-- ./footer__column-second -->
+   </div>
+   
 
 
-    <div class="footer__column-third">
-
-        <h6 class="  subscribe__form-title explore">
-            Explore
-        </h6>
-
-      <ul class="explore__items">
-         
-        <div class="explore__items-left">
-         
-          <li class="explore__item"><a href="" class="explore__link">Envato</a> </li>
-          <li class="explore__item"><a href="" class="explore__link">Themecurve</a></li>
-          <li class="explore__item"><a href="" class="explore__link">Kreativeshowcase</a></li>
-          <li class="explore__item"><a href="" class="explore__link">Freebiescurve</a> </li>
+           
+      <div class="created">
+      
+              <span class="created__descr"> 
+              Created with </span>
+              
+              <span class="heart footer__heart">
+                  <img src="img/heart.svg">
+              </span>
           
-        </div>
-          
+              <span class="created__descr">
+                  by <span class="theme"> themecurve</span>,<br>
+                 exclusive for kreativeshowcas</span>
+                 
+                 <span class="copyright created__descr">
+                      © 2014 Brandi. All Rights Reserved.
+                 </span>
+                 
+      </div>
+  
+      
+      </ul>
 
-        <div class="explore__items-left">
-
-          <li class="explore__item"><a href="" class="explore__link">Themeforest</a> </li>
-          <li class="explore__item"><a href="" class="explore__link">Microsoft</a></li>
-          <li class="explore__item"><a href="" class="explore__link">Google</a> </li>
-          <li class="explore__item"><a href="" class="explore__link">Yahoo</a></li>
-     
-     </div>
      
 
-
-             
-        <div class="created">
-        
-                <span class="created__descr"> 
-                Created with </span>
-                
-                <span class="heart footer__heart">
-                    <img src="img/heart.svg">
-                </span>
-            
-                <span class="created__descr">
-                    by <span class="theme"> themecurve</span>,<br>
-                   exclusive for kreativeshowcas</span>
-                   
-                   <span class="copyright created__descr">
-                        © 2014 Brandi. All Rights Reserved.
-                   </span>
-                   
-        </div>
-    
-        
-        </ul>
-
-       
-
-    </div><!-- ./footer__column-third-->
+  </div><!-- ./footer__column-third-->
 
 
-    </div> <!-- ./main__footer -->
-    
+  </div> <!-- ./main__footer -->
+  
 </footer> 
-    
-<div class="overlay"></div>
+
+    <div class="overlay"></div>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/map.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

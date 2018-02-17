@@ -31,4 +31,14 @@
 @import "imports/team";
 @import "imports/fact";
 @import "imports/discuss";
-@import "imports/footer";
+
+
+@include medium {
+  .section {
+    padding: 50px 0;
+  }
+
+  .work.section {
+    padding-bottom: 0;
+  }
+}

@@ -4,7 +4,6 @@
 }
 
 .features__list {
- 
     padding: 0;
     list-style: none;
     display: flex;
@@ -13,12 +12,12 @@
 }
 
 .features__item {
+    margin-top: 70px;
     padding-left: 55px;
     position: relative;
     width: 320px;
-    margin-top: 70px;
 
-    @include extrasmall{
+    @include extraSmall {
         width: 280px;
     }
 }

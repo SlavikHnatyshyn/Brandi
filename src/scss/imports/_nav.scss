@@ -1,36 +1,33 @@
-.menu-btn{
+.menu-btn {
     padding: 0;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    background: 0;
-    @include size(40px,40px);
+    background: none;
+    border: none;
+    outline: none;
+    @include size(40px, 40px);
     @include flexCenter;
     display: none;
 
-    @include customWidth(651px){
+    @include responsive(651px) {
         display: flex;
     }
 }
 
-
-.nav{
+.nav {
     transition: transform .2s ease-in-out;
-  
-    @include customWidth(651px){
-       will-change: transform;
+    
+    @include responsive(651px) {
+        will-change: transform;
         position: fixed;
         left: 0;
         top: 0;
-        
-        @include size (230px, 100vh);
+        @include size(230px, 100vh);
         background: $main-title-color;
         transform: translateX(-100%);
     }
 }
 
-.nav--active{
-    @include customWidth(651px){
+.nav--active {
+    @include responsive(651px) {
         transform: translateX(0);
     }
 }
@@ -41,20 +38,18 @@
     list-style: none;
     display: flex;
 
-  @include customWidth(651px){
-      flex-flow: column nowrap;
-
-  }
+    @include responsive(651px) {
+        flex-flow: column nowrap;
+    }
 }
 
 .nav__item {
     &:not(:last-child) {
         margin-right: 30px;
-    
-     @include customWidth(651px){
-         margin: 0 0 10px 0;
-     }
-    
+
+        @include responsive(651px) {
+            margin: 0 0 10px 0;
+        }
     }
 }
 
@@ -84,21 +79,18 @@
     
     &:hover {
         color: #0eb493;
-    
-       @include customWidth(651px){
-           color:#fff;      /*на телефонах откл ховера*/
-       }
-    
+
+        @include responsive(651px) {
+            color: #fff;
+        }
     }
 
-
-    @include customWidth(651px){
+    @include responsive(651px) {
         padding-left: 30px;
         font-size: 18px;
-    
-      &:active:before{
-          width: 100%;
-          background: #fff;
-      }
+
+        &:active:before {
+            background: #fff;
+        }
     }
 }

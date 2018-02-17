@@ -43,8 +43,6 @@ $(function () {
             isScroll();
         })
     })();
-  
-    
 
     (function responsiveNav () {
         let btn = $('#menu-btn');
@@ -67,4 +65,5 @@ $(function () {
             btn.removeAttr('disabled');
         })
     })();
+    
 })
